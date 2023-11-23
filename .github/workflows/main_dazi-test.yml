@@ -2,7 +2,6 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-
 name: Build and deploy Python app to Azure Web App - dazi-test
 
 on:
@@ -67,4 +66,4 @@ jobs:
         with:
           app-name: 'dazi-test'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B97CEA94B484CFC86EFDA97E6D200B9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEE6693B20284B3D86747C63EB8F7295 }}
